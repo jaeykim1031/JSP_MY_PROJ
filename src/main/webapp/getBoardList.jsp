@@ -8,7 +8,7 @@
 List<M_BoardDTO> boardList = new ArrayList<>();
 
 try {
-	boardList = (List) session.getAttribute("boardList");
+	boardList = (List<M_BoardDTO>) session.getAttribute("boardList");
 %>
 
 <!DOCTYPE html>
@@ -54,6 +54,8 @@ try {
 		</table>
 		<br> <a href="index.jsp"> 홈으로 </a> <br> <a
 			href="insertBoard.jsp"> 새 글 쓰기 </a>
+		<p /> <a href= "deleteBoard.jsp"> 글 삭제</a>
+			
 </body>
 </center>
 </html>

@@ -14,11 +14,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내용</title>
+<title> 상세 페이지 </title>
 </head>
 <body>
 	<center>
-		<h1> 글 내용 </h1>
+		<h1> 글 수정 </h1>
 		<hr><hr>
 		<br><br>
 		<form method="post" action = "updateBoard.do">
@@ -62,17 +62,16 @@
 				
 			</table>
 		</form>
+		
 		<br> <br>
-		<a href = "deleteBoard.do?seq=<%= board.getId() %>" > 
+		<a href = "deleteBoard.do?id=<%= board.getId() %>" > 
 			글 삭제
 		</a>
 		
 		<p /> <a href="index.jsp"> 홈으로 </a>
 		<p /> <a href="getBoardList.jsp"> 글 목록 </a>
-		<p /> <a = href="insertBoard.jsp"> 새 글 쓰기</a>
-		
-		</form>
-		
+		<p /> <a href="insertBoard.jsp"> 새 글 쓰기</a>
+		<p /> <a href= "deleteBoard.jsp"> 글 삭제</a>
 
 </body>
 </center>
