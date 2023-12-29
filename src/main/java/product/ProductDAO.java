@@ -40,7 +40,7 @@ public class ProductDAO {
 				
 				//pstmt 객체의 ? 변수의 값 할당. 
 				pstmt.setString(1, dto.getName());
-				pstmt.setInt(2, dto.getPrice());
+				pstmt.setDouble(2, dto.getPrice());
 				pstmt.setString(3, dto.getContent());
 				
 				//pstmt 를 실행해서 DB에 저장 
@@ -180,7 +180,7 @@ public class ProductDAO {
 				
 				// ? 변수에 값을 할당 
 				pstmt.setString(1, dto.getName());
-				pstmt.setInt(2, dto.getPrice());
+				pstmt.setDouble(2, dto.getPrice());
 				pstmt.setString(3, dto.getContent());
 				pstmt.setInt(4,dto.getId());
 				

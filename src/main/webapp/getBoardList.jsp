@@ -30,7 +30,9 @@ try {
 				<th bgcolor="lightyellow" width="100px">조회수</th>
 			</tr>
 			<%
+			
 			for (M_BoardDTO k : boardList) {
+				
 			%>
 
 			<tr>

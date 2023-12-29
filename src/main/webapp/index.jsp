@@ -16,15 +16,13 @@
 	<a href="insertBoard.jsp"> 게시판 글쓰기 </a>
 	<p />
 
-	<a href="getUsersList.do"> 회원 목록 </a>
+	<a href="getMemberList.do"> 회원 목록 </a>
 	<p />
-	<a href="insertUsers.jsp"> 회원 가입 </a>
+	<a href="insertMember.jsp"> 회원 가입 </a>
 	<p />
 	<a href="LoginForm.jsp"> 로그인 </a>
 	<p />
-	<a href="admin.jsp"> 관리자 페이지 </a>
-	<p />
-	<a href="getProducts.jsp"> 상품 등록 페이지 (관리자) </a>
+	<a href="getProduct.jsp"> 상품 등록 페이지 (관리자) </a>
 	<p />
 	<a href="getProductList.do"> 상품 리스트 페이지 (관리자) </a>
 	<p />

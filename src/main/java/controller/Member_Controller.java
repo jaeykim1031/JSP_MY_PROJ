@@ -151,12 +151,12 @@ public class Member_Controller extends HttpServlet {
 			dto.setRole(role);
 			dto.setId(id); 
 			
-			MemberDAO dao = new MemberDAO (); 
+			MemberDAO dao = new MemberDAO(); 
 			dao.updateMember(dto); 
 			
 			response.sendRedirect("getMemberList.us");
 		}
-		else if (path.equals("/deleteMember.us")
+		else if (path.equals("/deleteMember.us"))
 		{
 			System.out.println("/deleteMember.us 요청");
 			

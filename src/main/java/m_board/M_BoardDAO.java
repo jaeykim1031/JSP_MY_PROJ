@@ -102,8 +102,8 @@ public class M_BoardDAO {
 			while (rs.next()) {
 
 				board.setId(rs.getInt("ID"));
-				board.setM_title(rs.getString("TITLE"));
-				board.setM_write(rs.getString("WRITE"));
+				board.setM_title(rs.getString("M_TITLE"));
+				board.setM_write(rs.getString("M_WRITE"));
 				board.setM_cont(rs.getString("M_CONT"));
 				board.setRegdate(rs.getDate("REGDATE"));
 				board.setCnt(rs.getInt("CNT"));
